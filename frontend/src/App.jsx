@@ -5,6 +5,7 @@ import {HomePage,LoginPage, ExplorePage, LikesPage, SignUpPage } from './pages/i
 import { Toaster } from 'react-hot-toast'
 import { useAuthContext } from './context/AuthContext.jsx'
 
+
 const App = () => {
   const {authUser, setAuthUser, loading} = useAuthContext(); 
   console.log("Authenticated User", authUser); 
