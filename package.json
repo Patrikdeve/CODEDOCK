@@ -7,7 +7,6 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "node backend/server.mjs"
   },
-  "type": "module",
   "author": "",
   "license": "ISC",
   "description": "",
